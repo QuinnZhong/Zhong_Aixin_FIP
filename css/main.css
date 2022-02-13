@@ -1,0 +1,229 @@
+@charset "UTF-8";
+body {
+  font-family: "Poppins", "Helvetica", "Arial", "sans-serif";
+  font-size: 30px;
+  cursor:url("../images/icon-bottle.jpg"), auto;
+}
+
+header, section, footer{
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+.visuallyhidden {
+  opacity: 0;
+}
+.overflow > div{
+  overflow: hidden;
+}
+
+.text-center{
+  text-align: center;
+}
+.text-blue{
+  color: #0015ff;
+}
+
+.width-50{
+  width: 50%
+}
+.width-80{
+  width: 80%
+}
+
+.padding-0{
+  padding: 0;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-36{
+  margin-bottom: 36px;
+}
+
+.margin {
+  margin: 50px;
+}
+
+.flex{
+  display: flex;
+  line-height: 1;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center{
+  
+  align-content: center;
+  align-items: center;
+}
+
+.flex-gap{
+  display: flex;
+  gap: 20px;
+}
+
+.flex-gap-2{
+  display: flex;
+  gap: 40px;
+}
+
+.flex-gap-3{
+  display: flex;
+  gap: 60px;
+}
+
+.flex .flex-item{
+  flex:1;
+}
+
+
+.compressed-p{
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.header{
+  min-height: 220px;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.header nav{
+
+  padding: 20px 0px;
+  background-color: rgb(7, 35, 176);
+}
+
+nav ul{
+  gap:100px
+}
+
+nav .flex-item{
+  padding: 0px 20px;
+  text-align: center;
+}
+
+nav li a{
+  text-decoration: none;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+a:hover, a:active {
+  color: #fff700;
+  /* border-bottom: solid 3px; */
+  transition: all .10s ease-out;
+}
+
+section.default{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section > div > .title{
+  font-size: 30pt;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+section > div > .description{
+  width: 80%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.headbody{
+  margin-top: 20px;
+}
+
+.headbody .slogon{
+  padding: 30px;
+  font-size: 30px;
+  justify-content: center;
+  align-content: center;
+}
+
+.headbody .slogon .lineone {
+  font-size: 60pt;
+}
+
+.headbody .slogon .lineone{
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.headbody .head-image img{
+  height: 100%;
+}
+
+/* PRODUCT VARIATIONS */
+.lineup > div{
+  text-align: center;
+  line-height: 1;
+  overflow: hidden;
+  background: #9dd9ff;
+  padding-bottom: 30px;
+}
+.lineup > div h3{
+  font-size: 22px;
+  margin-top: 10px;
+}
+.lineup img{
+  width: 100%;
+}
+.product-items{
+  width: 100%;
+}
+.product-items > div{
+  margin-bottom: 20px;
+}
+
+.hockey {
+  padding-top: 20px;
+  text-align: center;
+}
+.hockey > div{
+  background: #8fe7ff;
+  padding: 10px 30px;
+  min-height: 200px;
+}
+
+.hockey > div h4{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.hockey p {
+  padding-bottom: 10px;
+}
+
+footer{
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer > div{
+  background-color: #52a7e8;
+  padding: 10px;
+}
+footer ul {
+  column-count: 2;
+  margin-top: 10px;
+}
